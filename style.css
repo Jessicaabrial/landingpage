@@ -1,0 +1,266 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: white;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', 
+  font-weights 700;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.banner {
+  padding: 150px 0;
+  margin: 0;
+  background-image: url('banner2.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  
+}
+
+#banner-p {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 350px;
+}
+
+.btn-blue {
+  background-color:#E0E321;
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+img {
+  transition: all 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.product-section {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.product-section h2 {
+  color: #0f0f0f;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.product-card {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+  max-width: 300px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: #0f0f0f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-card p {
+  color: #787878;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.newsletter-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.newsletter-form h3 {
+  color: #0f0f0f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  background-color: #FE9CD5;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.promo-header {
+  background-color: #ffbbe3;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.promo-message {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.promo-button {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #ff6a5c;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.promo-button:hover {
+  background-color: #ff6a5c;
+  color: #fff;
+}
+
+.shipping-returns {
+  background-color: #ffffff ;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  color: black ;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.shipping-returns p {
+  margin: 0;
+}
+
+.shipping-returns a {
+  color: #666;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
